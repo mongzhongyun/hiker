@@ -217,7 +217,7 @@ function lunbo(c) {
         let id = 'juyue';
         let time = 4000;
         registerTask(id, time, $.toString((c, k) => {
-            rc(fc('https://gitee.com/mistywater/hiker_info/raw/master/githubproxy.json') + 'https://raw.githubusercontent.com/mistywater/hiker/main/f', 24);
+            rc(fc('https://gitee.com/mistywater/hiker_info/raw/master/githubproxy.json') + 'https://raw.githubusercontent.com/mongzhongyun/hiker/main/f', 24);
             var n = getVar(c.host + 'n', '0');
             if (c.json == 1) {
                 var item = toerji({
